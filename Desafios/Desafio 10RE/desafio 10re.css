@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(Fontes/idroid.otf) format('opentype');
+    
+}
+
+body{
+    background-color:#85e1ac;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+h1{
+    margin:0px; 
+}
+
+header{
+    background-image: linear-gradient(to top,#1d693f,#24824e,#2fab64,#3bd17d);
+    margin:0px;
+}
+#top > h1,h2{
+    text-align: center;
+    color:white
+}
+#top > h1{
+    padding-top:10px;
+}
+#top > h2{
+    font-size: 18px;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    text-align: center  ;
+}
+#top > nav{
+    padding: 0 0 8px 0;
+    margin: 0 0 0 7px;
+}
+#top > nav > a{
+    text-align: left;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin:5px;
+    font-size: 16px;
+}
+#top > nav > a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.android{
+    font-family: 'idroid', cursive;
+}
+main article > h1.android{
+    color: #1f5f3d;
+    text-align: left;
+    padding: 10px 0 0 0;
+    margin: 0 0 0 16px;
+}
+main > article > h2{
+    color: #306e4c;
+    background-image: linear-gradient(to right,#b6e4ca,white);
+    text-align: left;
+    margin: auto auto auto 16px;
+
+}
+.width{
+    width: 70%;
+    max-width: 800px;
+}
+p{
+    text-align: justify;
+    text-indent: 2em;
+    margin: 16px 16px 0px 16px;
+    padding-bottom: 10px;
+}
+
+div#final{
+    background-color: #2ea966;
+    margin:5px 16px 0px 16px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+div > h2{
+    margin: 0px;
+    text-align: left;
+    text-indent: 1em; 
+}
+div.wall{
+    background-color: #c5ebd6;
+    margin: 0px 16px;
+    padding: 10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+div.wall > p{
+    margin: 0px 16px;
+}
+.espacamento{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c5ebd6;
+    margin: 0px 16px;
+    padding: 0px 7em 0px 0em;
+    text-align: left;
+ }
+ #marg-bot{
+     padding-bottom: 15px;
+ }
+ #backvideo{
+     background-color:#1f5f3d;
+     margin:0px 17px;
+     padding:0px;
+ }
+
+ footer > p{
+     background-color: #1b5c39;
+     text-align: center;
+    margin: 16px auto auto auto;
+    padding: 8px 0 8px 0;
+    color: white;
+ }
+ a{
+     color: #3d7456;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ div#espaco > p{
+     margin:0px 16px;
+    padding: 15px 0px;
+ }
+
+

@@ -14,21 +14,51 @@ body {
     height:100vh;
 }
 main{
-    height: 100%;
+    height: 96%;
     display: flex;
 }
 #container{
-    width: 40vh;
-    height: 400px;
+    width: 290px;
+    height: 520px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     border-radius: 25px;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.137);
 }
 #box{
-    height: 30vh;
+    height: 28vh;
     display: flex;
-    border-radius: 
+   
+   
+}
+h1{
+    color: #49546b;
+    text-align: center;
+    
+}
+p{
+    color: #63666d;
+    text-align: center;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #000000b4;
+}
+h1 , p{
+    padding: 10px;
+}
+#bottom{
+    text-align: center;
+    text-decoration: none;
+}
+#bottom > a{
+    color:#253DE8;
+    font-weight: bold;
+    text-decoration: none;
 }
